@@ -15,6 +15,7 @@ module OS
         when "10.12" then "9.2"
         when "10.13" then "10.1"
         when "10.14" then "10.1"
+        when "10.15" then "11.0"
         else
           raise "macOS '#{MacOS.version}' is invalid" unless OS::Mac.prerelease?
 

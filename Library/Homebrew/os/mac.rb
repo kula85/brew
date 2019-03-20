@@ -31,14 +31,14 @@ module OS
 
     def latest_sdk_version
       # TODO: bump version when new Xcode macOS SDK is released
-      Version.new "10.14"
+      Version.new "10.15"
     end
 
     def latest_stable_version
       # TODO: bump version when new macOS is released and also update
       # references in docs/Installation.md and
       # https://github.com/Homebrew/install/blob/master/install
-      Version.new "10.14"
+      Version.new "10.15"
     end
 
     def outdated_release?
